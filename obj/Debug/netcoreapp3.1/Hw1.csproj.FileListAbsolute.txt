@@ -1,0 +1,13 @@
+C:\Users\акмал\Desktop\akmal\home work\Hw1\bin\Debug\netcoreapp3.1\Hw1.exe
+C:\Users\акмал\Desktop\akmal\home work\Hw1\bin\Debug\netcoreapp3.1\Hw1.deps.json
+C:\Users\акмал\Desktop\akmal\home work\Hw1\bin\Debug\netcoreapp3.1\Hw1.runtimeconfig.json
+C:\Users\акмал\Desktop\akmal\home work\Hw1\bin\Debug\netcoreapp3.1\Hw1.runtimeconfig.dev.json
+C:\Users\акмал\Desktop\akmal\home work\Hw1\bin\Debug\netcoreapp3.1\Hw1.dll
+C:\Users\акмал\Desktop\akmal\home work\Hw1\bin\Debug\netcoreapp3.1\Hw1.pdb
+C:\Users\акмал\Desktop\akmal\home work\Hw1\obj\Debug\netcoreapp3.1\Hw1.csprojAssemblyReference.cache
+C:\Users\акмал\Desktop\akmal\home work\Hw1\obj\Debug\netcoreapp3.1\Hw1.csproj.CoreCompileInputs.cache
+C:\Users\акмал\Desktop\akmal\home work\Hw1\obj\Debug\netcoreapp3.1\Hw1.AssemblyInfoInputs.cache
+C:\Users\акмал\Desktop\akmal\home work\Hw1\obj\Debug\netcoreapp3.1\Hw1.AssemblyInfo.cs
+C:\Users\акмал\Desktop\akmal\home work\Hw1\obj\Debug\netcoreapp3.1\Hw1.dll
+C:\Users\акмал\Desktop\akmal\home work\Hw1\obj\Debug\netcoreapp3.1\Hw1.pdb
+C:\Users\акмал\Desktop\akmal\home work\Hw1\obj\Debug\netcoreapp3.1\Hw1.genruntimeconfig.cache
