@@ -40,8 +40,64 @@ namespace Hw1
             Console.WriteLine("Описание:");
             string content1 = Console.ReadLine();
 
+            Book book = new Book()
+            {
+                author = new Author() { author = author1 },
+                content = new Content() { content = content1 },
+                title = new Title() { title = title1 }
+            };
 
+            Console.WriteLine("Book:");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            book.title.Show();
+            Console.ForegroundColor = ConsoleColor.Red;
+            book.author.Show();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            book.content.Show();
+            Console.WriteLine("Продолжите");
+            Console.ReadKey();
+            Console.Clear();
+            Programer pr = new Programer();
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Click\n1 to eat\n2 to sleep\n3 to code:");
+            int chs = Convert.ToInt32(Console.ReadKey().KeyChar.ToString());
+            switch (chs)
+            {
+                case 1:
+                    pr.eat();
+                    break;
+                case 2:
+                    pr.sleep();
+                    break;
+                case 3:
+                    pr.Working();
+                    break;
+            }
+            Console.ReadKey();
         }
+        public static string EnterValue(string val)
+        {
+            Console.WriteLine(val + ":");
+            string s = Console.ReadLine();
+            return s;
+        }
+    }
+    class Programer
+    {
+        public void eat()
+        {
+            Console.WriteLine("Не мешать я ем!");
+        }
+        public void sleep()
+        {
+            Console.WriteLine("Не шуметь я сплю !");
+        }
+        public void Working()
+        {
+            Console.WriteLine("Не мешать,Я работаю!");
+        }
+    }
     class Rectangle
     {
         public double side1 { get; set; }
@@ -66,5 +122,34 @@ namespace Hw1
             return 2 * (side1 + side2);
         }
     }
-    
+    class Book
+    {
+        public Author author { get; set; }
+        public Title title { get; set; }
+        public Content content { get; set; }
+    }
+    class Title
+    {
+        public string title { get; set; }
+        public void Show()
+        {
+            Console.WriteLine(this.title);
+        }
+    }
+    class Author
+    {
+        public string author { get; set; }
+        public void Show()
+        {
+            Console.WriteLine(this.author);
+        }
+    }
+    class Content
+    {
+        public string content { get; set; }
+        public void Show()
+        {
+            Console.WriteLine(this.content);
+        }
+    }
 }
